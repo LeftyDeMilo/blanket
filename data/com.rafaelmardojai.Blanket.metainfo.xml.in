@@ -4,9 +4,9 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <name>Blanket</name>
-  <summary>Listen to different sounds</summary>
+  <summary>Listen to ambient sounds</summary>
   <description>
-    <p>Improve focus and increase your productivity by listening to different sounds</p>
+    <p>Improve focus and increase your productivity by listening to different ambient sounds</p>
     <p>Also can help you to fall asleep in a noisy environment.</p>
     <p>Features:</p>
     <ul>
@@ -15,7 +15,7 @@
       <li>Auto start in background</li>
       <li>MPRIS integration</li>
     </ul>
-    <p>Included Sounds:</p>
+    <p>Included Sounds in the App:</p>
     <ul>
       <li>Birds</li>
       <li>Boat</li>
@@ -35,7 +35,7 @@
   </description>
   <url type="homepage">https://github.com/rafaelmardojai/blanket</url>
   <url type="bugtracker">https://github.com/rafaelmardojai/blanket/issues</url>
-  <url type="translate">https://github.com/rafaelmardojai/blanket/tree/master/po</url>
+  <url type="translate">https://www.transifex.com/rafaelmardojai/blanket/</url>
   <url type="donation">https://rafaelmardojai.com/donate/</url>
   <developer_name>Rafael Mardojai CM</developer_name>
   <update_contact>email_AT_rafaelmardojai.com</update_contact>
@@ -49,9 +49,6 @@
       <image>https://raw.githubusercontent.com/rafaelmardojai/blanket/master/brand/screenshot-1.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/rafaelmardojai/blanket/master/brand/screenshot-2.png</image>
-    </screenshot>
-    <screenshot>
       <image xml:lang="ru">https://raw.githubusercontent.com/rafaelmardojai/blanket/master/brand/screenshots/ru/screenshot-1-ru.z.png</image>
     </screenshot>
     <screenshot>
@@ -60,6 +57,16 @@
   </screenshots>
 
   <releases>
+    <release version="0.6.0" date="2022-04-13">
+      <description>
+        <ul>
+          <li>App ported to GTK 4 and libadwaita</li>
+          <li>User interface refinements</li>
+          <li>New translations added</li>
+          <li>Bug fixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.5.0" date="2021-09-28">
       <description>
         <ul>
